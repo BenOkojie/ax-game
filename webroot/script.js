@@ -57,7 +57,7 @@ class App {
       case 'initialData': {
         // Load initial data
         const { username, currentCounter } = message.data;
-        this.usernameLabel.innerText = username;
+        this.usernameLabel.innerText = username +" this is a test ";
         this.counter = currentCounter;
         this.counterLabel.innerText = `${this.counter}`;
         break;

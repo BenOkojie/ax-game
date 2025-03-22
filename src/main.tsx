@@ -74,7 +74,7 @@ Devvit.addCustomPostType({
           <spacer />
           <vstack alignment="start middle">
             <hstack>
-              <text size="medium">Username:</text>
+              <text size="medium">Username---:</text>
               <text size="medium" weight="bold">
                 {' '}
                 {username ?? ''}
@@ -89,7 +89,7 @@ Devvit.addCustomPostType({
             </hstack>
           </vstack>
           <spacer />
-          <button onPress={() => webView.mount()}>Launch App</button>
+          <button onPress={() => webView.mount()}>Counter</button>
         </vstack>
       </vstack>
     );
